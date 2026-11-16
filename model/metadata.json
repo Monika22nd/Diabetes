@@ -1,0 +1,46 @@
+{
+  "student": "Nguyen Ba Duy",
+  "identifier": "076",
+  "seed": 76,
+  "dataset_url": "https://huggingface.co/datasets/marianeft/diabetes_prediction_dataset/resolve/main/diabetes_prediction_dataset.csv",
+  "raw_rows": 100000,
+  "clean_rows": 96146,
+  "train_rows": 76916,
+  "validation_rows": 9615,
+  "test_rows": 9615,
+  "feature_names": [
+    "age",
+    "hypertension",
+    "heart_disease",
+    "bmi",
+    "HbA1c_level",
+    "blood_glucose_level",
+    "gender_Female",
+    "gender_Male",
+    "gender_Other",
+    "smoking_history_Unknown",
+    "smoking_history_current",
+    "smoking_history_ever",
+    "smoking_history_former",
+    "smoking_history_never",
+    "smoking_history_not current"
+  ],
+  "selected_threshold": 0.71,
+  "test_metrics": {
+    "accuracy": 0.9513260530421217,
+    "precision": 0.6938775510204082,
+    "recall": 0.8018867924528302,
+    "f1": 0.7439824945295405,
+    "roc_auc": 0.9752475513880311,
+    "pr_auc": 0.8752837746262732,
+    "brier": 0.06467757374048233,
+    "loss": 0.35180129002483324,
+    "threshold": 0.71
+  },
+  "limitations": [
+    "Educational prototype only",
+    "No external or prospective clinical validation",
+    "Threshold is selected for this dataset and is not a clinical threshold",
+    "Predicted probabilities are not clinically calibrated"
+  ]
+}

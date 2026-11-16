@@ -1,0 +1,23 @@
+[
+  {
+    "id": "WHO_DIABETES",
+    "topic": "overview",
+    "title": "WHO Diabetes Questions and Answers",
+    "url": "https://www.who.int/news-room/questions-and-answers/item/diabetes",
+    "text": "Diabetes occurs when the body cannot regulate blood glucose properly."
+  },
+  {
+    "id": "CDC_RISK",
+    "topic": "risk factors",
+    "title": "CDC Diabetes Risk Factors",
+    "url": "https://www.cdc.gov/diabetes/risk-factors/",
+    "text": "Risk factors include age, family history, overweight or obesity, and high blood pressure."
+  },
+  {
+    "id": "NIDDK_OVERVIEW",
+    "topic": "management",
+    "title": "NIDDK Diabetes Overview",
+    "url": "https://www.niddk.nih.gov/health-information/diabetes",
+    "text": "Diabetes information should support, not replace, care from qualified health professionals."
+  }
+]
