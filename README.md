@@ -27,6 +27,10 @@ The notebook contains every required code cell in execution order:
 
 The same cells are available in [`COLAB_CELLS.md`](COLAB_CELLS.md) for manual copy and paste.
 
+## Knowledge graph and RAG notebook
+
+[Open the source-linked RAG + Knowledge Graph notebook in Colab](https://colab.research.google.com/github/Monika22nd/Diabetes/blob/main/notebooks/RAG_KB_NguyenBaDuy_076.ipynb). The executable prototype contains six official-source evidence records, 24 graph nodes, 31 evidence-linked relations, one-hop and two-hop traversal, TF-IDF retrieval, source citations, and an abstention path. Neo4j import files are provided as [`kb_diabet01.cypher`](knowledge_graph/kb_diabet01.cypher), [`kb_diabet02.cypher`](knowledge_graph/kb_diabet02.cypher), and the merged [`kb_diabet.cypher`](knowledge_graph/kb_diabet.cypher). The source inventory contains six official health-information links and the notebook includes optional PDF ingestion.
+
 ## Verified local training result
 
 The included browser model was trained from the same pipeline with seed 76 on 96,146 records after exact duplicate removal.
@@ -65,8 +69,14 @@ Diabetes/
 │   ├── diabetes_mlp.pt
 │   ├── preprocessor.joblib
 │   └── knowledge_base.json
+├── knowledge_graph/
+│   ├── SOURCES.md
+│   ├── kb_diabet01.cypher
+│   ├── kb_diabet02.cypher
+│   └── kb_diabet.cypher
 ├── notebooks/
-│   └── Diabetes_End_to_End_Training_NguyenBaDuy_076.ipynb
+│   ├── Diabetes_End_to_End_Training_NguyenBaDuy_076.ipynb
+│   └── RAG_KB_NguyenBaDuy_076.ipynb
 └── training/
     ├── build_notebook.py
     └── run_local_training.py
