@@ -29,7 +29,7 @@ The same cells are available in [`COLAB_CELLS.md`](COLAB_CELLS.md) for manual co
 
 ## Knowledge graph and RAG notebook
 
-[Open the source-linked RAG + Knowledge Graph notebook in Colab](https://colab.research.google.com/github/Monika22nd/Diabetes/blob/main/notebooks/RAG_KB_NguyenBaDuy_076.ipynb). The executable prototype contains six official-source evidence records, 24 graph nodes, 31 evidence-linked relations, one-hop and two-hop traversal, TF-IDF retrieval, source citations, and an abstention path. Neo4j import files are provided as [`kb_diabet01.cypher`](knowledge_graph/kb_diabet01.cypher), [`kb_diabet02.cypher`](knowledge_graph/kb_diabet02.cypher), and the merged [`kb_diabet.cypher`](knowledge_graph/kb_diabet.cypher). The source inventory contains six official health-information links and the notebook includes optional PDF ingestion.
+[Open the source-linked RAG + Knowledge Graph notebook in Colab](https://colab.research.google.com/github/Monika22nd/Diabetes/blob/main/notebooks/RAG_KB_NguyenBaDuy_076.ipynb). The graph prototype contains six official-source evidence records, 24 graph nodes, 31 evidence-linked relations, one-hop and two-hop traversal, source citations, and an abstention path. The PDF pipeline was executed locally on five course PDFs: 214 pages became 261 overlapping chunks and 128-dimensional dense LSA embeddings. Its five-query file-level test reached Hit@3 = 0.80. The notebook also includes an evidence-bounded FLAN-T5 generation cell. Neo4j import files are provided as [`kb_diabet01.cypher`](knowledge_graph/kb_diabet01.cypher), [`kb_diabet02.cypher`](knowledge_graph/kb_diabet02.cypher), and the merged [`kb_diabet.cypher`](knowledge_graph/kb_diabet.cypher).
 
 ## Verified local training result
 

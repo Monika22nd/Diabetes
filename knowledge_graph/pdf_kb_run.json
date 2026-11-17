@@ -1,0 +1,171 @@
+{
+  "seed": 76,
+  "chunk_size": 850,
+  "chunk_overlap": 120,
+  "embedding": "TF-IDF followed by TruncatedSVD dense LSA (128 dimensions)",
+  "files": [
+    {
+      "file": "intel_sys_dev_slide_02_final.pdf",
+      "pages": 37,
+      "pages_with_text": 37,
+      "chunks": 41
+    },
+    {
+      "file": "intel_sys_dev_slide_03_deepLeaning_1.pdf",
+      "pages": 78,
+      "pages_with_text": 78,
+      "chunks": 78
+    },
+    {
+      "file": "intel_sys_dev_slide_04_compare_models_CNN.pdf",
+      "pages": 30,
+      "pages_with_text": 30,
+      "chunks": 32
+    },
+    {
+      "file": "knowled_graph RAG-lectureNote.pdf",
+      "pages": 58,
+      "pages_with_text": 58,
+      "chunks": 85
+    },
+    {
+      "file": "project_architecture_multiagent_diabet_v1.pdf",
+      "pages": 11,
+      "pages_with_text": 11,
+      "chunks": 25
+    }
+  ],
+  "total_pages": 214,
+  "pages_with_text": 214,
+  "chunks": 261,
+  "vocabulary_size": 2521,
+  "explained_variance": 0.7771,
+  "evaluation": [
+    {
+      "question": "How should tabular data be represented for machine learning?",
+      "expected_file": "intel_sys_dev_slide_02_final.pdf",
+      "retrieved": [
+        {
+          "id": "intel_sys_dev_slide_03_deepLeaning_1-p75-c1",
+          "file": "intel_sys_dev_slide_03_deepLeaning_1.pdf",
+          "page": 75,
+          "score": 0.4646
+        },
+        {
+          "id": "knowled_graph RAG-lectureNote-p6-c2",
+          "file": "knowled_graph RAG-lectureNote.pdf",
+          "page": 6,
+          "score": 0.4317
+        },
+        {
+          "id": "intel_sys_dev_slide_03_deepLeaning_1-p4-c1",
+          "file": "intel_sys_dev_slide_03_deepLeaning_1.pdf",
+          "page": 4,
+          "score": 0.3916
+        }
+      ],
+      "hit_at_3": 0
+    },
+    {
+      "question": "What is function composition in a deep neural network?",
+      "expected_file": "intel_sys_dev_slide_03_deepLeaning_1.pdf",
+      "retrieved": [
+        {
+          "id": "intel_sys_dev_slide_03_deepLeaning_1-p76-c1",
+          "file": "intel_sys_dev_slide_03_deepLeaning_1.pdf",
+          "page": 76,
+          "score": 0.6437
+        },
+        {
+          "id": "intel_sys_dev_slide_03_deepLeaning_1-p13-c1",
+          "file": "intel_sys_dev_slide_03_deepLeaning_1.pdf",
+          "page": 13,
+          "score": 0.633
+        },
+        {
+          "id": "intel_sys_dev_slide_03_deepLeaning_1-p2-c1",
+          "file": "intel_sys_dev_slide_03_deepLeaning_1.pdf",
+          "page": 2,
+          "score": 0.5328
+        }
+      ],
+      "hit_at_3": 1
+    },
+    {
+      "question": "How are Keras and PyTorch CNN implementations compared?",
+      "expected_file": "intel_sys_dev_slide_04_compare_models_CNN.pdf",
+      "retrieved": [
+        {
+          "id": "intel_sys_dev_slide_04_compare_models_CNN-p26-c1",
+          "file": "intel_sys_dev_slide_04_compare_models_CNN.pdf",
+          "page": 26,
+          "score": 0.5569
+        },
+        {
+          "id": "intel_sys_dev_slide_04_compare_models_CNN-p2-c1",
+          "file": "intel_sys_dev_slide_04_compare_models_CNN.pdf",
+          "page": 2,
+          "score": 0.5381
+        },
+        {
+          "id": "intel_sys_dev_slide_02_final-p14-c1",
+          "file": "intel_sys_dev_slide_02_final.pdf",
+          "page": 14,
+          "score": 0.4525
+        }
+      ],
+      "hit_at_3": 1
+    },
+    {
+      "question": "What is retrieval augmented generation?",
+      "expected_file": "knowled_graph RAG-lectureNote.pdf",
+      "retrieved": [
+        {
+          "id": "knowled_graph RAG-lectureNote-p23-c1",
+          "file": "knowled_graph RAG-lectureNote.pdf",
+          "page": 23,
+          "score": 0.7043
+        },
+        {
+          "id": "knowled_graph RAG-lectureNote-p1-c1",
+          "file": "knowled_graph RAG-lectureNote.pdf",
+          "page": 1,
+          "score": 0.6836
+        },
+        {
+          "id": "knowled_graph RAG-lectureNote-p2-c3",
+          "file": "knowled_graph RAG-lectureNote.pdf",
+          "page": 2,
+          "score": 0.5068
+        }
+      ],
+      "hit_at_3": 1
+    },
+    {
+      "question": "Which agents are used in the diabetes decision support architecture?",
+      "expected_file": "project_architecture_multiagent_diabet_v1.pdf",
+      "retrieved": [
+        {
+          "id": "project_architecture_multiagent_diabet_v1-p1-c1",
+          "file": "project_architecture_multiagent_diabet_v1.pdf",
+          "page": 1,
+          "score": 0.6065
+        },
+        {
+          "id": "project_architecture_multiagent_diabet_v1-p4-c3",
+          "file": "project_architecture_multiagent_diabet_v1.pdf",
+          "page": 4,
+          "score": 0.5896
+        },
+        {
+          "id": "project_architecture_multiagent_diabet_v1-p10-c3",
+          "file": "project_architecture_multiagent_diabet_v1.pdf",
+          "page": 10,
+          "score": 0.5793
+        }
+      ],
+      "hit_at_3": 1
+    }
+  ],
+  "hit_at_3": 0.8
+}
